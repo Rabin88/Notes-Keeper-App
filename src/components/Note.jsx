@@ -35,11 +35,7 @@ function Note(props){
       method: 'DELETE',
       headers: {
         'Accept': 'application/json',
-        'Content-Type': 'application/json',
-        'Origin': 'https://notesdata.herokuapp.com/',
-        'Access-Control-Allow-Credentials': 'true',
-        'Access-Control-Allow-Methods': 'DELETE',
-        'Access-Control-Allow-Headers': 'Content-Type' 
+        'Content-Type': 'application/json'
       }
     })
 
